@@ -1,4 +1,4 @@
-function checkPolindrome(str: string) {
+function checkPalindrome(str: string) {
   let checker: string = str.split('').reverse().join('');
   if (checker == str) {
     console.log(`${str} adalah polindrome`);
@@ -7,5 +7,5 @@ function checkPolindrome(str: string) {
   }
 }
 
-checkPolindrome('eye');
-checkPolindrome('Mata');
+checkPalindrome('eye');
+checkPalindrome('Mata');

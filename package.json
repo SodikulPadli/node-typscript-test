@@ -10,7 +10,7 @@
   "scripts": {
     "start": "npx tsc && node build/app.js",
     "fizzbuzz": "npx tsc && node build/test/fizzbuzz.js",
-    "polindrome": "npx tsc && node build/test/polindrome.js",
+    "palindrome": "npx tsc && node build/test/palindrome.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
